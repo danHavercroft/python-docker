@@ -1,0 +1,6 @@
+services:
+  ipcheck:
+    build: .
+    image: python-docker:latest
+    ports:
+      - 80
